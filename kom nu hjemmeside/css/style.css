@@ -1,0 +1,496 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* :root{
+  --blue: #99e3ff;
+  --buyBtn: #66BB6A;
+}
+*/
+ul{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.køgehjem{
+  float: left;
+  margin-left: 100px;
+}
+
+.logo{
+  margin-left: 10%;
+}
+
+.medier{
+  float: right;
+  margin-top: -65px;
+  font-size: 32px;
+  margin-right: 10%;
+}
+
+.fa-facebook{
+  color: #3b5998;
+}
+
+.fa-linkedin{
+  color: #0077b5;
+}
+
+.nav .active{
+  background-color: #293952;
+    color: white;
+}
+
+.active{
+  padding: 26px;
+}
+
+.nav {
+    border: 1px solid #EAEAEB;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 0 30px 0 0;
+    font-family: "helvetica neue"
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: gray;
+    margin: 0 10px;
+    line-height: 70px;
+}
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    }
+
+#toggle {
+    display: none;
+}
+
+.soge{
+  float: right;
+  margin-right: 100px;
+  margin-top: -70px;
+}
+
+body{
+  font-family: 'verdana', sans-serif;
+
+}
+
+/* removing desktop styles */
+#desktopHeader, .desktopLogo, #desktopMenu, select, option, .btn, #gridContainer, article h1{
+  display: none;
+}
+
+
+
+
+form input{
+  border: 1px solid #000;
+  padding: 10px;
+  margin-top: 20%;
+  width: 90vw;
+  outline: none;
+  border-radius: 20px;
+}
+
+::placeholder{
+  text-align: center;
+}
+
+
+#mobileSearchBar {
+  margin-bottom: 5%
+}
+figure{
+  text-align: center;
+}
+
+figure img{
+  width: 80%;
+  display: block;
+  margin: 10% 10% 0 10%;
+}
+
+.slideshow-container {
+  display: none;
+}
+p{
+  color: white;
+}
+
+/*footer*/
+
+/* tjek fonts slides fra 1 semester. htm: 100% - rem  */
+
+*{
+  box-sizing: border-box;
+}
+h3{
+  font-family: verdana;
+font-size: 14px;
+padding-left: 10%;
+color: #293952;
+}
+
+footer{
+  background-color: white;
+  font-family: verdana;
+  font-size: 9px;
+  margin-bottom: auto;
+  margin-top: 100px;
+
+
+}
+
+p{
+  font-family: verdana;
+
+}
+
+li{
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 200%;
+}
+
+ul {
+  list-style-type: none;
+  padding: inherit;
+}
+.flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flex-grid {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row; /*mq*/
+}
+
+.col1{
+  margin-left: 1%;
+
+}
+
+.col2{
+margin-left: : 15%;
+padding-left: 15%;
+flex-wrap: wrap;
+
+
+}
+
+.col3{
+  margin-left:  20%;
+  padding-left: 7%;
+  flex-wrap: wrap;
+
+}
+
+.col4{
+  margin-left: 10%;
+  padding-left: 7%;
+  flex-wrap: wrap;
+
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* unvisited link */
+a:link {
+    color:#293952;
+}
+
+/* visited link */
+a:visited {
+    color: #293952;
+}
+
+/* mouse over link */
+a:hover {
+    color: #293952;
+}
+
+/* selected link */
+a:active {
+    color: #293952;
+}
+
+}
+
+
+
+@media screen and (min-width: 1000px){
+  /* removing mobile styles */
+  #toggleMenu, #mobileSearchBar, #logo, #events{
+    display: none;
+  }
+
+  #desktopHeader{
+    display: block;
+    background: #293952;
+    height: 125px;
+    text-align: right;
+  }
+      label {
+          display: block;
+          cursor: pointer;
+
+      }
+      .menu {
+          text-align: center;
+          width: 100%;
+          display: none;
+      }
+      .menu a {
+          display: block;
+          border-bottom: 1px solid #EAEAEB;
+          margin: 0;
+
+      }
+      #toggle:checked + .menu {
+          display: block;
+      }
+
+  .soge{
+    float: right;
+    margin-right: 50px;
+    margin-top: 0px;
+  }
+
+
+  }
+
+main{
+
+  margin: 0 auto 2% auto;
+}
+.flex-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: row;
+   width: 100%;
+
+}
+.fleximage{
+  display: flex;
+  flex-direction: column;
+
+}
+.flextext{
+  background: #293952;
+  min-width: 0;
+  width: 400px;
+  height: 100px;
+}
+.pic{
+
+   width: 400px;
+   max-width: 100%;
+
+
+}
+
+h1{
+  color: white;
+  font-weight:normal;
+  margin-left: 5px;
+}
+p{
+  margin-left: 5px;
+  color: white;
+}
+button{
+  font-family: verdana;
+  font-weight: bold;
+  text-align: right;
+  background-color: #293952;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width:  medium;
+  font-size: 16px;
+  padding: 5px 15px;
+  float: right;
+  margin-right: 5px;
+}
+
+/* button:hover {
+    background-color: #293952;
+    color: white;
+  } */
+.genveje{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.ikondel{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 2%;
+
+}
+.ikoner{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-self: center
+
+}
+.ikon{
+  align-self: center
+}
+
+.bluedel{
+  color: #293952;
+}
+
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: #293952;
+  text-decoration: underline;
+}
+
+
+
+
+
+  /* Slideshow container */
+   .slideshow-container {
+    display: block;
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+  }
+
+  /* Hide the images by default */
+ .mySlides {
+      display: none;
+  }
+  .dots{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+
+*/
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+ .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+ .text {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    margin-left: 11%;
+  }
+
+  /* The dots/bullets/indicators */
+  .dots{
+    text-align: center;
+  }
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+*/
+h1{
+  color: white;
+  font-weight:normal;
+}
+p{
+  color: white;
+}
+
+
+button:hover {
+
+  }
+}
